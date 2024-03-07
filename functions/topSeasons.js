@@ -2,7 +2,7 @@ export const getMyTop5PowerRangersSeasons = () => {
   return [
     {
       season: 9,
-      title: "Power Rangers Time Force",
+      title: "Hola",
       episodes: 40,
       firstReleased: "February 3, 2001",
       lastReleased: "November 17, 2001",
