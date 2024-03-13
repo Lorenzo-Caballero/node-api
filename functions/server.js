@@ -2,11 +2,10 @@ import express from "express";
 import cors from "cors";
 import serverless from "serverless-http";
 import { getMyTop5PowerRangersSeasons } from "./topSeasons.js";
-import {PORT} from "../config.js"
 import usersRoutes from "../routes/users.routes.js";
 import designsRoutes from "../routes/designs.routes.js";
 import indexRoutes from "../routes/index.routes.js";
-app.listen( PORT);
+
 var app = express();
 app.use(cors());
 
